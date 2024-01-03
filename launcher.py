@@ -20,8 +20,8 @@ from tkinter import messagebox
 # Define the paths
 mods_dir = os.path.expandvars("%APPDATA%/.minecraft/mods")
 mods_zip_path = os.path.join(os.path.expandvars("%TEMP%"), "mods.zip")
-forge_url = "http://fileserver.basgetbored.me/forge.jar"
-mods_url = "http://fileserver.basgetbored.me/mods.zip"
+forge_url = "https://fileservermc.ofbas.com/forge.jar"
+mods_url = "https://fileservermc.ofbas.com/mods.zip"
 
 # Specify the path to the Minecraft launcher profiles JSON file
 profiles_file_path = os.path.expandvars('%APPDATA%/.minecraft/launcher_profiles.json')
@@ -33,7 +33,7 @@ new_profile_name = 'Neko Cafe'
 current_profile_name = 'forge'
 
 # Specify the URL of the image
-image_url = 'http://fileserver.basgetbored.me/logo/nekoCafeLogo.png'
+image_url = 'https://fileservermc.ofbas.com/logo_image.png'
 
 # Specify the path to save the downloaded image
 image_directory = os.path.expandvars('%APPDATA%/.minecraft/libraries/profileLogo')
